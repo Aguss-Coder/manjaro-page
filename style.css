@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Open+Sans:ital,wght@1,300&display=swap');
+
+* {
+    /*background-color: #44883c;*/
+    background-color: #f0f0f0;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: .01em;
+}
+
+.nav {
+    background: #44883c;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    min-height: 53px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.nav__ul {
+    padding-left: 21em;
+    background-color: #44883c;
+    display: inline-block;
+}
+
+.nav__ul li {
+    display: inline-block;
+    letter-spacing: 1px;
+    margin: 5px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.nav__ul li a {
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px 8px;
+}
+
+.nav__ul li a:hover {
+    background-color: #69a063;
+}
+
+.nav__ul li span {
+    font-family: 'Comfortaa', cursive;
+    color: #fff;
+    background-color: transparent;
+}
+
+.nav__h1 {
+    padding-left: 120px;
+    font-family: 'Comfortaa', cursive;
+    display: inline-block;
+    font-size: .8571em;
+    background: #44883c;
+    color: #fff;
+    font-weight: 700;
+}
+
+.nav__h1 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.6em;
+    text-align: left;
+    font-family: 'Comfortaa', cursive;
+}
+
+.div-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    padding: 0;
+    padding-top: 60px;
+
+}
+
+.div-container div {
+    padding-bottom: 7rem;
+    padding-top: 7rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: center;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    margin-top: 20px;
+}
+
+.div-container div h2 {
+    padding-bottom: 30px;
+}
+
+.div-container_1 {
+    margin-left: 7em;
+    margin-right: 50px;
+}
+
+.div-container_2 {
+    margin-right: 7em;
+    margin-left: 50px;
+}
+
+.div-container_3 {
+    margin-left: 7em;
+    margin-right: 50px;
+}
+
+.div-container_4 {
+    margin-right: 7em;
+    margin-left: 50px;
+}
